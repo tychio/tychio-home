@@ -261,3 +261,134 @@ textarea {
   }
 }
 
+body {
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+.rellax {
+  position: fixed;
+  text-align: left;
+}
+
+.rellax.beian {
+  position: relative;
+  z-index: 10000;
+  bottom: 10px;
+  left: 10px;
+  color: #999999;
+  font-size: 12px;
+}
+.beian a,
+.beian a:active,
+.beian a:link,
+.beian a:visited {
+  color: #999999;
+  text-decoration: none;
+}
+.beian a:hover {
+  color: #d1bd0a;
+}
+
+.rellax.bg {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.text-primary { color: #f7e018; }
+.text-seconds { color: #444444; }
+.text-default { color: #000000; }
+
+.bg-primary { background-color: #f7e018; }
+.bg-default { background-color: #ffffff; }
+.bg.bg-left { background-color: #ffffff; margin-left: 50%; width: 50%; }
+.bg.bg-right { background-color: #ffffff; margin-right: 50%; width: 50%; }
+
+.title {
+  top: 0;
+  line-height: 25px;
+  font-size: 1rem;
+  letter-spacing: 4px;
+  opacity: 0.4;
+}
+
+.nav {
+  top: 100px;
+  right: 16%;
+}
+
+.nav .nav-item {
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+}
+
+.nav a,
+.nav a:visited,
+.nav a:active,
+.nav a:link {
+  display: block;
+  color: #f5f5f7;
+  background-color: #000000;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  padding: 15px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+.nav a:hover {
+  background-color: #444444;
+  text-decoration: none;
+}
+.nav a:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: 0;
+  padding-top: 0;
+  border-radius: 100%;
+  background-color: rgba(236, 240, 241, .3);
+  transform: translate(-50%, -50%);
+}
+.nav a:active:before {
+  width: 120%;
+  padding-top: 120%;
+  transition: width .2s ease-out, padding-top .2s ease-out;
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+  white-space: nowrap;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('/img/logo.png');
+  top:  300px; left: 150px;
+}
+
+.name-cn {
+  top:  500px; left: 30%; font-size:   5rem; font-weight: 300;
+}
+
+.name-nick {
+  top:  500px; left: 54%; font-size: 1.5rem; font-weight: 300;
+}
+
+.name-en {
+  top:  620px; left: 40%; font-size:   3rem; font-weight: 300;
+}
+
+.city {
+  top:  610px; left: 80%; font-size:   2rem; font-weight: 300;
+}
