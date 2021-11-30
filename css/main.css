@@ -279,6 +279,14 @@ body {
   color: #999999;
   font-size: 12px;
 }
+.rellax.beian .beian-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: -5px 0;
+  background-image: url('/img/beian.png');
+  zoom: 0.9;
+}
 .beian a,
 .beian a:active,
 .beian a:link,
