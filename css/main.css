@@ -310,19 +310,28 @@ body {
 
 .text-primary { color: #f7e018; }
 .text-seconds { color: #444444; }
-.text-default { color: #000000; }
+.text-default { color: #4c392a; text-shadow: 0 0 1px #e8d4c0;}
 
 .bg-primary { background-color: #f7e018; }
 .bg-default { background-color: #ffffff; }
 .bg.bg-left { background-color: #ffffff; margin-left: 50%; width: 50%; }
 .bg.bg-right { background-color: #ffffff; margin-right: 50%; width: 50%; }
+.bg-title {
+  background-color: rgba(232, 212, 192, .3);
+}
+.bg-hero {
+  background-image: url('/img/hero.jpg');
+  background-size: cover;
+}
 
 .title {
   top: 0;
-  line-height: 25px;
+  line-height: 30px;
   font-size: 1rem;
-  letter-spacing: 4px;
-  opacity: 0.4;
+  letter-spacing: 5px;
+  padding: 0 10px;
+  opacity: 0.7;
+  border-bottom-right-radius: 5px;
 }
 
 .nav {
@@ -385,18 +394,24 @@ body {
   top:  300px; left: 150px;
 }
 
-.name-cn {
+.pnt-name-cn {
   top:  500px; left: 30%; font-size:   5rem; font-weight: 300;
 }
 
-.name-nick {
+.pnt-name-nick {
   top:  500px; left: 54%; font-size: 1.5rem; font-weight: 300;
 }
 
-.name-en {
+.pnt-name-en {
   top:  620px; left: 40%; font-size:   3rem; font-weight: 300;
 }
 
-.city {
-  top:  610px; left: 80%; font-size:   2rem; font-weight: 300;
+.pnt-name-bg {
+  top:  450px; left: 24%; right: 24%; height: 300px;
+}
+
+.pnt-city {
+  top:  610px; left: 80%; width: 100px; height: 150px;
+  background-image: url('/img/points/Xian.png');
+  background-repeat: no-repeat;
 }
