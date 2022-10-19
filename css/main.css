@@ -265,7 +265,7 @@ body {
   position: relative;
   overflow-x: hidden;
   min-height: 100vh;
-  height: 2000vh;
+  height: 14000px;
 }
 
 .rellax {
@@ -310,11 +310,11 @@ body {
   right: 0;
 }
 
-.text-primary { color: #f7e018; }
+.text-primary { color: #9a7d60; }
 .text-seconds { color: #444444; }
 .text-default { color: #4c392a; text-shadow: 0 0 1px #e8d4c0;}
 
-.bg-primary { background-color: #f7e018; }
+.bg-primary { background-color: #9a7d60; }
 .bg-default { background-color: #f7f5ec; }
 .bg.bg-left { background-color: #f7f5ec; margin-right: 50%; width: 50%; }
 .bg.bg-right { background-color: #f7f5ec; margin-left: 50%; width: 50%; }
@@ -416,8 +416,170 @@ body {
   top:  450px; left: 24%; right: 24%; height: 300px;
 }
 
-.pnt-city {
+.pnt-angular {
+  top: 1050px; left: 15%; width: 292px; height: 80px;
+  background-image: url('/img/points/angular.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-belgium {
+  top: 2400px; left: 31%; width: 140px; height: 152px;
+  background-image: url('/img/points/belgium.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-blog {
+  top: 700px; left: 32%; width: 570px; height: 133px;
+  background-image: url('/img/points/blog.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-bilibili {
+  top: 6400px; left: 53%; width: 322px; height: 151px;
+  background-image: url('/img/points/bilibili.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-email {
+  top: 900px; left: 72%; width: 136px; height: 127px;
+  background-image: url('/img/points/email.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-github {
+  top: 500px; left: 18%; width: 155px; height: 240px;
+  background-image: url('/img/points/github.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-introductionreact {
+  top: 3000px; left: 86%; width: 154px; height: 210px;
+  background-image: url('/img/points/introductionreact.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-java {
+  top: 1300px; left: 8%; width: 59px; height: 110px;
+  background-image: url('/img/points/java.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-javascript {
+  top: 800px; left: 44%; width: 246px; height: 246px;
+  background-image: url('/img/points/javascript.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-jsconf2019 {
+  top: 4000px; left: 66%; width: 339px; height: 340px;
+  background-image: url('/img/points/jsconf2019.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-knockout {
+  top: 2800px; left: 7%; width: 223px; height: 55px;
+  background-image: url('/img/points/knockout.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-linkedin {
+  top: 1600px; left: 59%; width: 287px; height: 109px;
+  background-image: url('/img/points/linkedin.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-nextjs {
+  top: 3100px; left: 55%; width: 167px; height: 100px;
+  background-image: url('/img/points/nextjs.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-nodejs {
+  top: 4100px; left: 3%; width: 256px; height: 156px;
+  background-image: url('/img/points/nodejs.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-perl {
+  top: 3900px; left: 74%; width: 152px; height: 73px;
+  background-image: url('/img/points/perl.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-php {
+  top: 4200px; left: 78%; width: 243px; height: 128px;
+  background-image: url('/img/points/php.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-proangular {
+  top: 3000px; left: 32%; width: 191px; height: 231px;
+  background-image: url('/img/points/proangular.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-react {
+  top: 1700px; left: 32%; width: 429px; height: 144px;
+  background-image: url('/img/points/react.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-ruby {
+  top: 2800px; left: 71%; width: 237px; height: 79px;
+  background-image: url('/img/points/ruby.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-shiyou {
+  top: 1000px; left: 15%; width: 240px; height: 104px;
+  background-image: url('/img/points/shiyou.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-stackoverflow {
+  top: 700px; left: 69%; width: 295px; height: 85px;
+  background-image: url('/img/points/stackoverflow.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-steam {
+  top: 12000px; left: 6%; width: 71px; height: 71px;
+  background-image: url('/img/points/steam.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-team247 {
+  top: 2850px; left: 52%; width: 251px; height: 121px;
+  background-image: url('/img/points/team247.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-thoughtworks {
+  top: 1700px; left: 8%; width: 597px; height: 151px;
+  background-image: url('/img/points/thoughtworks.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-tripadvisor {
+  top: 700px; left: 10%; width: 100px; height: 100px;
+  background-image: url('/img/points/tripadvisor.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-vue {
+  top: 8600px; left: 14%; width: 179px; height: 155px;
+  background-image: url('/img/points/vue.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-xian {
   top:  610px; left: 80%; width: 100px; height: 150px;
-  background-image: url('/img/points/Xian.png');
+  background-image: url('/img/points/xian.png');
+  background-repeat: no-repeat;
+}
+
+.pnt-zhihu {
+  top: 10900px; left: 17%; width: 153px; height: 94px;
+  background-image: url('/img/points/zhihu.png');
   background-repeat: no-repeat;
 }
